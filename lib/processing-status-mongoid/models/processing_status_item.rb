@@ -32,9 +32,9 @@ module ProcessingStatusMongoid
       field :current_error_count, :type => Integer, :default => 0
       field :total_error_count, :type => Integer, :default => 0
       
-      # Description and categorization
+      # Description and payload
       field :message, :default => ''
-      field :data
+      field :payload
       
       # Metrics
       field :current_item_count, :type => Integer,:default => 0
