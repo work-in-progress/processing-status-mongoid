@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "activesupport", "~> 3.0"  
   s.add_runtime_dependency "activemodel", "~> 3.0"  
   s.add_runtime_dependency "bson_ext"
-  s.add_runtime_dependency "mongoid", "~> 2.0.0"
+  s.add_runtime_dependency "mongoid"
   s.add_development_dependency "rspec", "~> 2.6"
   s.add_development_dependency "rake", "~> 0.8"
 
